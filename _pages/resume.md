@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /resume/
+permalink: https://registry.jsonresume.org/attheratefayez 
 title: resume
 nav: true
 nav_order: 5
