@@ -35,7 +35,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/resume/";
+            window.location.href = "/https:/registry.jsonresume.org/attheratefayez";
           },
         },{id: "nav-bookshelf",
           title: "bookshelf",
