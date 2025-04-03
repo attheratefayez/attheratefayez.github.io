@@ -6,7 +6,6 @@
     "email": "faizurrahman.fayez@gmail.com",
     "phone": "+880 1752 340 556",
     "url": "https://attheratefayez.github.io/",
-    // "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "KDA, Fulbarigate",
       "postalCode": "9203",
@@ -22,6 +21,7 @@
       }
     ]
   },
+
   "work": [
     {
       "name": "Unipolar Automation Technologies",
@@ -29,10 +29,16 @@
       "url": "https://example.com",
       "startDate": "April, 2024",
       "endDate": "Present",
-      "summary": "Developing a prototype of an AMR.",
-      "highlights": ["Robotics"]
+      "summary": "Developing a prototype of an Autonomous Mobile Robot (AMR).",
+      "highlights": [
+        "ROS2, Navigation2, ROS2-Control",
+        "Integration of Micro-ROS with ESP32",
+        "Simulation and testing in Gazebo"
+      ]
+
     }
   ],
+
   "education": [
     {
       "institution": "Khulna University of Engineering & Technology",
@@ -42,25 +48,180 @@
       "studyType": "B.Sc",
       "startDate": "Jan, 2019",
       "endDate": "Mar, 2024"
-      // "score": "10",
-      // "courses": ["Theory of Relativity"]
     }
   ],
+
  "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "Confident",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "C/C++",
+        "Python",
+        "Bash"
+      ]
+    }, 
+
+    {
+      "name": "Robotics Frameworks",
+      "level": "Confident",
+      "keywords": [
+        "ROS2", 
+        "Micro-ROS",
+        "DDS",
+        "Gazebo",
+        "Navigation2",
+        "MoveIt2",
+        "ROS2-Control"
+      ]
+    },
+    
+    {
+      "name": "Version Control System",
+      "level": "Confident",
+      "keywords": [
+        "git",
+        "Github"
+      ]
+    },
+    
+    {
+      "name": "Databases",
+      "level": "Confident",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL"
+      ]
+    }, 
+
+    {
+      "name" : "Micro-Controllers",
+      "level" : "Confident",
+      "keywords" : [
+        "ESP32",
+        "Arduino",
+        "AtMega32"
+      ]
+    },
+
+    {
+      "name" : "Build System",
+      "level" : "Confident",
+      "keywords" : [
+        "CMake",
+        "Make",
+        "Ninja"
+      ]
+    },
+
+    {
+      "name" : "OS", 
+      "level" : "Confident",
+      "keywords" : [
+        "Debian",
+        "Windows"
       ]
     }
+
   ],
+
+  "projects": [
+
+    {
+      "name" : "Autonomous Mobile Robot Prototype (Private)",
+      "summary" : "A mobile robot that can navigate in a dynamic environment.",
+      "highlights" : ["ROS2, Micro-ROS, Gazebo", "ESP32", "Nav2, ROS2-Control", "C++, Python"],
+      "startDate" : "Aug, 2024",
+      "endDate" : "WIP"
+    },
+
+    {
+      "name" : "GripX",
+      "summary" : " Mobile Manipulator robot made with URDF, can be loaded into Gazebo to perform testing of different kinds.",
+      "highlights" : ["ROS2, URDF, Gazebo", "ROS2-Control, Custom Hardware Interface", "C++, Python"], 
+      "startDate" : "Oct, 2024",
+      "endDate" : "WIP"
+    },
+
+    {
+      "name" : "Simulation Robot (Diff Drive Robot)",
+      "summary" : "A simulation robot made with URDF, that can be loaded into Gazebo for different testing purpose",
+      "highlights" : ["ROS2, URDF, Gazebo", "C++, Python"], 
+      "startDate" : "July, 2024",
+      "endDate" : "Aug, 2024"
+    },
+
+    {
+      "name": "Path-Sync",
+      "summary": "This project visualizes and somewhat analyzes the performance of different path finding algorithms. It can currently solve SAPF and MAPF problems and show the results.",
+      "highlights": ["Path Finding, SAPF, MAPF, Optimal Solution", "C++, OOP, SFML, CMake, Doxygen"],
+      "startDate": "Jan, 2024",
+      "endDate": "WIP", 
+      "url": "https://github.com/attheratefayez/path_sync"
+    }, 
+
+    {
+      "name": "Optimization of the Conflict Based Search Framework for Multi-Objective Multi-Agent Path Finding (Thesis)",
+      "summary": "MO-CBS is the state-of-the-art algorithm for solving multi-objective pathfinding problem. It has two levels: higher and lower level search. Here I've tried to optimize the algorithm on both higher and lower level.",
+      "highlights": ["Multi-Objective Multi-Agent Path Finding", "Pareto-optimal Front, Optimal Solution"],
+      "startDate": "Nov, 2023",
+      "endDate": "Mar, 2024"
+    },
+
+    {
+      "name" : "Drawing with Fourier Series", 
+      "summary" : "Applying the Discrete Fourier Transform (DFT) to a signal breaks it in its fundamental frequency components and their respective amplitudes. With this spectral information, the signal can be reconstructed using the Complex Fourier Series. This program performs both decomposition and reconstruction.",
+      "highlights" : ["Signal Processing", "DFT, FFT, Complex Fourier Series"],
+      "startDate" : "Nov, 2022",
+      "endDate" : "Dec, 2022",
+      "url" : "https://github.com/attheratefayez/drawing_with_fourier_series"
+    }, 
+
+    {
+      "name" : "Car Washing System (University Project)", 
+      "summary" : "This project was a part of the micro-controller course on third year of university. ATMega32 as the micro-controller on this project.",
+      "highlights" : ["ATMega328p, AVR-C, Micro-Controller Architecture", "Sensor Integration, GPIO, Interrupts, ADC", "Timer, Counter, PWM Generation", "SPI, I2C, USART"],
+      "startDate" : "Mar, 2022", 
+      "endDate" : "Apr, 2022"
+    }, 
+
+    {
+      "name" : "LQR Controller Design for a self-balancing Bi-Cycle Robot (University Project)", 
+      "summary" :  "This project was a part of the micro-controller course on third year of university.",
+      "highlights" : ["Arduino, Sensor Integration", "Self-Balancing with Reaction Wheel, Lagrangian Mechanics", "LQR Controller, Matlab"], 
+      "startDate" : "Sep, 2022", 
+      "endDate" : "Nov, 2022"
+    }
+
+  ], 
+
+  "interests": [
+    {
+      "name": "Mathematics",
+      "keywords": [
+        "Linear Algebra",
+        "Fourier Series",
+        "Fourier Transform",
+        "Laplace Transform",
+        "Discrete Fourier Transform", 
+        "Digital Signal Processing",
+        "Control System"
+      ]
+    },
+
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "Probability and Statistics", 
+        "Deep Learning", 
+        "Deep Neural Network", 
+        "Reinforcement Learning", 
+        "Deep Reinforcement Learning", 
+        "Natural Language Processing"
+      ]
+    }
+  ], 
+
   "languages": [
     {
       "language": "Bangla",
@@ -72,41 +233,7 @@
       "fluency": "Fluent",
       "icon": ""
     }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
   ]
+
+
 }

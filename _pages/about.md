@@ -32,7 +32,7 @@ Hi, I am **Fayez**, a **Robotics Engineer** working in the **R&D Team** at a pri
 Currently, I am developing a ***prototype*** of an **Autonomous Mobile Robot**. 
 
 I am working with **ROS2** and its various Frameworks like: Nav2, ROS2-Control, MoveIt etc. I am using **C++** and **Python** 
-in my daily tasks and continuously trying to get improve my skills on those frameworkds and languages. 
+in my daily tasks and continuously trying to improve my skills on those frameworkds and languages. 
 
 I have experience working with different type of **micro-controllers** since my undergraduate days, which includes **Arduino, ESP32, AtMega32**. 
 
