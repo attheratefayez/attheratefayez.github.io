@@ -29,13 +29,13 @@ latest_posts:
 ---
 
 Hi, I am **Fayez**, a **Robotics Engineer** working in the **R&D Team** at a private organization. 
-Currently, I am developing a ***prototype*** of an **Autonomous Mobile Robot**. 
+Currently, I am developing a **prototype of an Autonomous Mobile Robot**. 
 
 I am working with **ROS2** and its various Frameworks like: Nav2, ROS2-Control, MoveIt etc. I am using **C++** and **Python** 
 in my daily tasks and continuously trying to improve my skills on those frameworkds and languages. 
 
 I have experience working with different type of **micro-controllers** since my undergraduate days, which includes **Arduino, ESP32, AtMega32**. 
 
-I am very passionate about programming, mathematics and outer-space. Even though I understand very little about them. 
+I am passionate about programming, mathematics, AI/ML and outer-space. Even though I understand very little about them. 
 
 I am trying to be a better human and a better learner. 
