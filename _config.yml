@@ -99,7 +99,7 @@ pagination:
 
 related_blog_posts:
   enabled: true
-  max_related: 5
+  max_related: 2
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -363,7 +363,7 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
-    webp: "-quality 99"
+    webp: "-quality 90"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
