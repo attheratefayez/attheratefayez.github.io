@@ -44,26 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-constraints-and-concepts-in-c",
         
-          title: "a post with plotly.js",
+          title: "Constraints and Concepts in C++",
         
-        description: "this is what included plotly.js code could look like",
+        description: "A basic discussion on Concepts in C++",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
+            window.location.href = "/blog/2025/concepts-in-cpp/";
           
         },
       },{id: "post-demystifying-dds",
@@ -198,6 +187,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/tikzjax/";
           
         },
+      },{id: "post-a-post-with-image-galleries",
+        
+          title: "a post with image galleries",
+        
+        description: "this is what included image galleries could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/photo-gallery/";
+          
+        },
       },{id: "post-a-post-with-bibliography",
         
           title: "a post with bibliography",
@@ -262,6 +262,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/videos/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
+        
+          title: "a post with plotly.js",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/plotly/";
           
         },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
