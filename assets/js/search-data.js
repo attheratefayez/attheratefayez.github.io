@@ -48,6 +48,17 @@ ninja.data = [{
         
           title: "Constraints and Concepts in C++",
         
+        description: "ELF and Tools",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/elf-and-stuffs/";
+          
+        },
+      },{id: "post-constraints-and-concepts-in-c",
+        
+          title: "Constraints and Concepts in C++",
+        
         description: "A basic discussion on Concepts in C++",
         section: "Posts",
         handler: () => {
