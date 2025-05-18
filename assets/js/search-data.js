@@ -44,11 +44,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-constraints-and-concepts-in-c",
+        },{id: "post-std-string-and-std-string-view-in-cpp",
         
-          title: "Constraints and Concepts in C++",
+          title: "std::string and std::string_view in cpp",
         
-        description: "ELF and Tools",
+        description: "A brief discussion on c-style string, std::string, std::string_view and Short String Optimization (SSO)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/strings-in-cpp/";
+          
+        },
+      },{id: "post-elf-and-stuffs",
+        
+          title: "ELF and Stuffs",
+        
+        description: "ELF and Related Tools",
         section: "Posts",
         handler: () => {
           
