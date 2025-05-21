@@ -4,7 +4,7 @@ title: std::string and std::string_view in cpp
 date: 2025-05-17
 description: A brief discussion on c-style string, std::string, std::string_view and Short String Optimization (SSO)
 tags: cpp 
-categories: code
+categories: Programming
 thumbnail: assets/img/strings_cpp/thumbnail.jpg
 featured: true
 ---

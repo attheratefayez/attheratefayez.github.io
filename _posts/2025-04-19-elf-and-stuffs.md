@@ -4,7 +4,7 @@ title: ELF and Stuffs
 date: 2025-04-19
 description: ELF and Related Tools
 tags: cpp 
-categories: code
+categories: Programming
 thumbnail: assets/img/elf_stuffs/thumbnail.png
 featured: true
 ---

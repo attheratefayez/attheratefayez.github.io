@@ -4,7 +4,7 @@ title: Drawing with Fourier Series
 description: Signal decomposition and reconstruction using DFT and Complex Fourier Series.
 img: assets/img/drawing_with_fourier_series/cover.png
 importance: 1
-category: signal processing
+category: "Signal Processing"
 ---
 
 Applying the Discrete Fourier Transform (DFT) to a signal breaks it in its fundamental frequency components and their respective amplitudes. With this spectral information, the signal can be reconstructed using the Complex Fourier Series. This program performs both decomposition and reconstruction.

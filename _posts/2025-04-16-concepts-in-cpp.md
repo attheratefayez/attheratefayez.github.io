@@ -4,7 +4,7 @@ title: Constraints and Concepts in C++
 date: 2025-04-16
 description: A basic discussion on Concepts in C++
 tags: cpp 
-categories: code
+categories: Programming
 thumbnail: assets/img/concepts/concept_thumbnail.png
 featured: true
 ---

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: Selected Projects.
+description: Refer to Github to see all the projects
 nav: true
 nav_order: 2
-display_categories: ["work", "fun", "robotics", "signal processing"]
+display_categories: ["Robotics", "Signal Processing", "C++", "AI/ML"]
 horizontal: false
 ---
 
