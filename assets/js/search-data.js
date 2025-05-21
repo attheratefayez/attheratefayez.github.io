@@ -17,8 +17,8 @@ ninja.data = [{
             window.location.href = "/blog/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "Selected Projects.",
+          title: "Projects",
+          description: "Refer to Github to see all the projects",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -109,51 +109,16 @@ ninja.data = [{
           description: "Signal decomposition and reconstruction using DFT and Complex Fourier Series.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_drawing_with_fourier_series/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-path-sync",
+          title: 'Path Sync',
+          description: "This project visualizes and somewhat analyzes the performance of different path finding algorithms. It can currently solve SAPF and MAPF problems and show the results.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_path_sync/";
+            },},{id: "projects-guessdigitnn",
+          title: 'GuessDigitNN',
+          description: "A simple app that tries to guess what number is drawn on the canvas. Under the hood is a CNN trained on MNIST dataset.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/2_guessDigitNN/";
             },},{
         id: 'social-email',
         title: 'email',
