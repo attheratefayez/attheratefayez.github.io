@@ -36,6 +36,4 @@ in my daily tasks and continuously trying to improve my skills on those framewor
 
 I have experience working with different type of **micro-controllers** since my undergraduate days, which includes **Arduino, ESP32, AtMega32**. 
 
-I am passionate about programming, mathematics, AI/ML and outer-space. Even though I understand very little about them. 
-
-I am trying to be a better human and a better learner. 
+I am passionate about programming, mathematics, AI/ML and outer-space. Tring to be a better learner. 
